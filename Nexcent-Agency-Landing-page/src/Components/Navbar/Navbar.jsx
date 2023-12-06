@@ -24,12 +24,12 @@ const Navbar = () => {
         </div>
         <nav>
             <ul className='flex justify-between gap-x-4 text-gray-900'>
-                <li>Home</li>
-                <li>Services</li>
-                <li>Feature</li>
-                <li>Product</li>
-                <li>Testimonial</li>
-                <li>FAQ</li>
+                <li className="hover:text-neutralGray"><a href="#">Home</a></li>
+                <li className="hover:text-neutralGray"><a href="">Services</a></li>
+                <li className="hover:text-neutralGray"><a href="#">Feature</a></li>
+                <li className="hover:text-neutralGray"><a href="#">Product</a></li>
+                <li className="hover:text-neutralGray"><a href="#">Testimonial</a></li>
+                <li className="hover:text-neutralGray"><a href="#">FAQ</a></li>
             </ul>
         </nav>
         <div className="login-signup flex gap-x-2 text-sm">

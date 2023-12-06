@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <section className="w-full relative flex flex-col py-24 pt-24 bg-[#F5F7FA]">
+    <section className="relative flex flex-col  px-36 py-24 bg-[#F5F7FA] mb-12">
       <div className="flex gap-x-24">
         <div className="cta flex flex-col w-1/2  px-8 gap-y-4">
             <div className="text flex flex-col gap-y-6">
@@ -332,7 +332,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="dot flex items-end gap-x-2 absolute left-1/2 -translate-x-1/2 bottom-0 ">
+      {/* <div className="dot flex items-end gap-x-2 absolute left-1/2 -translate-x-1/2 bottom-0 ">
         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
           <circle cx="5" cy="5" r="5" fill="#4CAF4F"/>
         </svg>
@@ -342,7 +342,7 @@ const Hero = () => {
         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
           <circle opacity="0.3" cx="5" cy="5" r="5" fill="#4CAF4F"/>
         </svg>
-      </div>
+      </div> */}
     </section>
   )
 }

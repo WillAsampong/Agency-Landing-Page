@@ -1,6 +1,8 @@
 import "./App.css";
-import Home from "./Components/Navbar/Home/Home";
+import Body from "./Components/Body/Body";
+import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <div className=" mx-auto">
         <Navbar />
         <Home />
+        <Body />
       </div>
     </>
   );
