@@ -14,8 +14,8 @@ const Customers = () => {
                     <p className="text-sm text-neutralGray">British Dragon Boat Racing Association</p>
                 </div>
             </div>
-            <div className="customers flex pt-6 gap-x-6 items-center">
-                <div className="logos flex gap-x-6 pt-3">
+            <div className="customers flex pt-8 gap-x-6 items-end">
+                <div className="logos flex gap-x-6 pt-3 items-end">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
                     <g clipPath="url(#clip0_211_712)">
                         <path fillRule="evenodd" clipRule="evenodd" d="M10.3533 0.593567C15.8761 0.593567 20.3533 5.07072 20.3533 10.5936V0.593567H30.3533C35.8761 0.593567 40.3533 5.07072 40.3533 10.5936C40.3533 16.1164 35.8761 20.5936 30.3533 20.5936C35.8761 20.5936 40.3533 25.0708 40.3533 30.5936C40.3533 33.3359 39.2494 35.8204 37.4618 37.627L37.4244 37.6647L37.3912 37.6977C35.5842 39.4879 33.0979 40.5936 30.3533 40.5936C27.6274 40.5936 25.1562 39.5029 23.3523 37.7341C23.3289 37.7111 23.3055 37.6879 23.2822 37.6647C23.2603 37.6428 23.2385 37.6208 23.2168 37.5987C21.4457 35.7945 20.3533 33.3216 20.3533 30.5936C20.3533 36.1164 15.8761 40.5936 10.3533 40.5936C4.83048 40.5936 0.353333 36.1164 0.353333 30.5936V20.5936H10.3533C4.83048 20.5936 0.353333 16.1164 0.353333 10.5936C0.353333 5.07072 4.83048 0.593567 10.3533 0.593567ZM18.3533 10.5936C18.3533 15.0119 14.7716 18.5936 10.3533 18.5936V2.59357C14.7716 2.59357 18.3533 6.17529 18.3533 10.5936ZM38.3533 30.5936C38.3533 26.1753 34.7716 22.5936 30.3533 22.5936C25.935 22.5936 22.3533 26.1753 22.3533 30.5936H38.3533ZM2.35333 22.5936V30.5936C2.35333 35.0119 5.93505 38.5936 10.3533 38.5936C14.7716 38.5936 18.3533 35.0119 18.3533 30.5936V22.5936H2.35333ZM22.3533 18.5936V2.59357H30.3533C34.7716 2.59357 38.3533 6.17529 38.3533 10.5936C38.3533 15.0119 34.7716 18.5936 30.3533 18.5936H22.3533Z" fill="#5417D7"/>
@@ -94,7 +94,7 @@ const Customers = () => {
                     </svg>
                 </div>
                 <div className="all-customers flex gap-x-3">
-                    <p className="text-primary">Meet all customers</p>
+                    <p className="text-primary font-semibold">Meet all customers</p>
                     <span className=' flex items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="11" viewBox="0 0 17 11" fill="none">
                         <path d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.39905M15 5.39905L1 5.39905" stroke="#4CAF4F" strokeWidth="1.5" strokeLinecap="round"/>
