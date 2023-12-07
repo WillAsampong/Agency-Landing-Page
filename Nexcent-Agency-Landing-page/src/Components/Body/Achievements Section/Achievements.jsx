@@ -15,7 +15,7 @@ const Achievements = () => {
         
         <ScrollTrigger onEnter={() =>setCounterState(true)} onExit={() => setCounterState(false)}>
             <div className="counts border-2 flex flex-col gap-6 p-4 basis-1/2 items-start">
-                <div className="row-1 flex justify-around">
+                <div className="row-1 flex gap-x-5">
                     <div className="members flex gap-x-2">
                         <div className="icon">
                             <img src={icon8} alt="" />
@@ -43,7 +43,7 @@ const Achievements = () => {
                         </div>
                     </div>
                 </div>
-                <div className="rows-2 flex justify-around">
+                <div className="rows-2 flex gap-x-5">
                     <div className="event-bookings flex gap-x-2">
                         <div className="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
