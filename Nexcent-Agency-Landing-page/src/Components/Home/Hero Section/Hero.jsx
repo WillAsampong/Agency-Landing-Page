@@ -332,7 +332,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* <div className="dot flex items-end gap-x-2 absolute left-1/2 -translate-x-1/2 bottom-0 ">
+      <div className="dot flex items-end gap-x-2 absolute left-1/2 -translate-x-1/2 bottom-0 ">
         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
           <circle cx="5" cy="5" r="5" fill="#4CAF4F"/>
         </svg>
@@ -342,7 +342,7 @@ const Hero = () => {
         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
           <circle opacity="0.3" cx="5" cy="5" r="5" fill="#4CAF4F"/>
         </svg>
-      </div> */}
+      </div>
     </section>
   )
 }

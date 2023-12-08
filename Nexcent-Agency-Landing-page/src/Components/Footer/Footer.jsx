@@ -72,25 +72,25 @@ const Footer = () => {
                 </svg>
             </div>
         </div>
-        <div className="links flex gap-x-10">
+        <div className="links flex gap-x-20">
             <div className="company flex flex-col gap-y-6">
                 <div className="heading"><p className="text-xl text-white">Company</p></div>
                 <ul className="flex flex-col gap-y-3">
-                    <li className="text-[#F5F7FA] text-sm">About us</li>
-                    <li className="text-[#F5F7FA] text-sm">Blog</li>
-                    <li className="text-[#F5F7FA] text-sm">Contact us</li>
-                    <li className="text-[#F5F7FA] text-sm">Pricing</li>
-                    <li className="text-[#F5F7FA] text-sm">Testimonials</li>
+                    <li className="text-[#F5F7FA] text-sm hover:translate-x-3 transition-all duration-200"><a href="#">About us</a></li>
+                    <li className="text-[#F5F7FA] text-sm hover:translate-x-3 transition-all duration-200"><a href="#">Blog</a></li>
+                    <li className="text-[#F5F7FA] text-sm hover:translate-x-3 transition-all duration-200"><a href="#">Contact us</a></li>
+                    <li className="text-[#F5F7FA] text-sm hover:translate-x-3 transition-all duration-200"><a href="#">Pricing</a></li>
+                    <li className="text-[#F5F7FA] text-sm hover:translate-x-3 transition-all duration-200"><a href="#">Testimonials</a></li>
                 </ul>
             </div>
             <div className="support flex flex-col gap-y-6">
                 <div className="heading"><p className="text-xl text-white">Support</p></div>
                 <ul className="flex flex-col gap-y-3">
-                    <li className="text-[#F5F7FA] text-sm">Help center</li>
-                    <li className="text-white text-sm">Terms of service</li>
-                    <li className="text-white text-sm">Legal</li>
-                    <li className="text-white text-sm">Privacy policy</li>
-                    <li className="text-white text-sm">Status</li>
+                    <li className="text-[#F5F7FA] text-sm hover:translate-x-3 transition-ease duration-200"><a href="#">Help center</a></li>
+                    <li className="text-white text-sm hover:translate-x-3 transition-all duration-200"><a href="#">Terms of service</a></li>
+                    <li className="text-white text-sm hover:translate-x-3 transition-all duration-200"><a href="#">Legal</a></li>
+                    <li className="text-white text-sm hover:translate-x-3 transition-all duration-200"><a href="#">Privacy policy</a></li>
+                    <li className="text-white text-sm hover:translate-x-3 transition-all duration-200"><a href="#">Status</a></li>
                 </ul>
             </div>
             <div className="flex flex-col gap-y-6 items-start">
